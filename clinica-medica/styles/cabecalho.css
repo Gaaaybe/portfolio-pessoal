@@ -18,13 +18,13 @@
 
 .perfil__titulo{
     color: var(--cor-principal-font);
-    font-size: 22;
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
 }
 
 .perfil__paragrafo{
     color: var(--cor-secundaria-font);
-    font-size: 14;
+    font-size: 14px;
     font-weight: 400;
 }
