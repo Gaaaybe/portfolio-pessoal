@@ -1,0 +1,30 @@
+.perfil{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.perfil__imagem{
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+
+}
+
+.perfil__texto{
+    margin-left: 1em;
+
+}
+
+.perfil__titulo{
+    color: var(--cor-principal-font);
+    font-size: 22;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.perfil__paragrafo{
+    color: var(--cor-secundaria-font);
+    font-size: 14;
+    font-weight: 400;
+}
