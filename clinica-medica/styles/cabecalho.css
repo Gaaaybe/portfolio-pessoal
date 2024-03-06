@@ -28,3 +28,13 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+.barra{
+    /* parou aqui */
+}
+
+.barra__titulo{
+    color: var(--cor-principal-font);
+    font-size: 16px;
+    font-weight: 700
+}
