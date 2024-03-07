@@ -29,12 +29,12 @@
     font-weight: 400;
 }
 
-.barra{
-    /* parou aqui */
-}
 
 .barra__titulo{
     color: var(--cor-principal-font);
     font-size: 16px;
-    font-weight: 700
+    font-weight: 700;
+    margin-top: 1.87em;
+    margin-bottom: 0.5em;
+
 }
