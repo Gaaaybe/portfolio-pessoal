@@ -1,9 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url("header.css");
 
 :root{
-
+    --cor-neutra: #000000;
+    --cor-de-fundo: #FFFFFF;
+    --cor-de-destaque: #F5D7FF;
+    --cor-font1: #ADADAD;
+    --font-principal: "Saira", sans-serif;
+    --font-secundaria: "Abhaya Libre", serif;
 }
 
 body{
-    
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 24px;
+    font-weight: 300;
 }

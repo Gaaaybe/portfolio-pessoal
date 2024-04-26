@@ -1,0 +1,18 @@
+.cabecalho {
+    background-color: var(--cor-fundo-cabeçalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 2em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+}
+
+.opcoes {
+    display: flex;
+}
