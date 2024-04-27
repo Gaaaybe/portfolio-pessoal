@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin: 2em;
+    margin: 2em 5em;
 }
 
 .container {
@@ -15,4 +15,13 @@
 
 .opcoes {
     display: flex;
+
+}
+
+.button{
+    margin-right: 5em;
+}
+
+.opcoes__item{
+    margin: 1.8em;
 }
