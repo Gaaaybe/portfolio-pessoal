@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    width: 90%;
+    margin: auto;
+    min-width: 1100px;
+}  
+
+.logo img{
+    height: 100%;
+    max-height: 70px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #333333;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.caixa-de-busca{
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    padding: 0px 20px;
+    margin-left: auto;
+
+}
+
+.caixa-de-busca input{
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.caixa-de-busca button{
+    color: #333333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btns a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fed2d1;
+    color: #383838;
+    font-size: 0.8rem;
+    margin-left: 10px;
+
+}
+
+.nav-btns a i{
+    margin-top: 2px;
+}
