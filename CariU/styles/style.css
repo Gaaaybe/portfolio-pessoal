@@ -175,6 +175,7 @@ a{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    max-width: 150px;
 }
 
 .grid-caixa-de-produto img{
@@ -204,4 +205,12 @@ a{
     font-weight: 600;
     font-size: 1.1rem;
     line-height: 1.5rem;
+}
+
+.grid-caixa-de-produto2{
+    background-color: #fbeae3;
+}
+
+.grid-caixa-de-produto3{
+    background-color: #faf4e4;
 }
