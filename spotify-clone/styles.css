@@ -1,3 +1,18 @@
 body {
     background-color: aquamarine;
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0.75em;
+    width: 18.75rem;
+}
+
+.sidebar__navigation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 1em 0 0 1em;
+}
