@@ -324,3 +324,34 @@ a{
     width: 90%;
     margin: 15px auto;
 }
+
+.grid-produto-half{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    max-height: 300px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.grid-produto-half .grid-caixa-de-produto1,
+.grid-produto-half .grid-caixa-de-produto2,
+.grid-produto-half .grid-caixa-de-produto3{
+    height: 100%;
+}
+
+.grid-produto-half .grid-caixa-de-produto1{
+    grid-row: 1/3;
+    background-color: #fbeae3;
+}
+
+.grid-produto-half .grid-caixa-de-produto1 .grid-produto-texto{
+    max-height: 200px;
+}
+
+.grid-produto-half .grid-caixa-de-produto1 .grid-produto-texto strong{
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
