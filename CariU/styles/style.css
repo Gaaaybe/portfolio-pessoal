@@ -255,7 +255,62 @@ a{
 }
 
 .novo_p_cabecalho li.ativo{
-    background-color: #ec26b1;
+    background-color: #f06bc8;
     color: #ffffff;
+}
 
+.novo_produto_box{
+    max-width: 250px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #f3f3f3;
+}
+
+.novo_produto_img{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.novo_produto_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.novo_produto_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+}
+
+.novo_produto_texto span{
+    color: #5a5a5a;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.novo_produto_texto a{
+    color: #333333;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.novo_produto_img span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #FED2D1;
+    color: #333333;
+    padding: 3px 10px;
+    font-weight: 600;
+    border-radius: 5px;
 }
