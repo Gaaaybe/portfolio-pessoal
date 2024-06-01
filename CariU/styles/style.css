@@ -260,7 +260,7 @@ a{
 }
 
 .novo_produto_box{
-    max-width: 250px;
+    max-width: 100%;
     width: 100%;
     border-radius: 5px;
     display: flex;
@@ -272,7 +272,7 @@ a{
 
 .novo_produto_img{
     width: 100%;
-    height: 200px;
+    height: 250px;
     padding: 20px;
     display: flex;
     margin: auto;
@@ -301,6 +301,7 @@ a{
 .novo_produto_texto a{
     color: #333333;
     font-weight: 600;
+    text-align: center;
     margin-top: 10px;
 }
 
@@ -313,4 +314,13 @@ a{
     padding: 3px 10px;
     font-weight: 600;
     border-radius: 5px;
+    font-size: 0.8rem;
+}
+.novo_produto_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 15px auto;
 }
