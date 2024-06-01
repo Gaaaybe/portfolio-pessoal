@@ -214,3 +214,48 @@ a{
 .grid-caixa-de-produto3{
     background-color: #faf4e4;
 }
+
+#novos_produtos{
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.novo_p_cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.novo_p_cabecalho h3{
+    font-size: 1.7rem;
+    color: #333333;
+    font-weight: 800;
+}
+
+.novo_p_cabecalho ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.novo_p_cabecalho li{
+    padding: 2px 20px;
+    border-radius: 4px;
+    margin: 0px 3px;
+    color: #333333;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.novo_p_cabecalho li.ativo{
+    background-color: #ec26b1;
+    color: #ffffff;
+
+}
