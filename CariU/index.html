@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="imagens/makeup-pouch.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -75,12 +76,11 @@
         <div class="novo_p_cabecalho">
             <h3>Novos produtos</h3>
 
-            <ul>
-                <li class="ativo"><a href="#">Todos</a></li>
-                <li><a href="#">Pele</a></li>
-                <li><a href="#">Maquiagem</a></li>
-                <li><a href="#">Unhas</a></li>
-
+            <ul id="lista-produtos">
+                <li><a href="#" data-category="todos">Todos</a></li>
+                <li><a href="#" data-category="pele">Pele</a></li>
+                <li><a href="#" data-category="maquiagem">Maquiagem</a></li>
+                <li><a href="#" data-category="unhas">Unhas</a></li>
             </ul>
         </div>
 
