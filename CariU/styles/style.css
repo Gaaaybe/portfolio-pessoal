@@ -497,3 +497,22 @@ footer{
     color: #333333;
     font-size: 0.9rem;
 }
+
+.rodape-link-box strong{
+    font-size: 1.2rem;
+    color: #333333;
+    font-weight: 600;
+}
+.rodape-link-box ul{
+    margin-top: 5px;
+}
+.rodape-container ul li a{
+    color: #797979;
+    display: flex;
+    margin-bottom: 5px;
+    transition: all ease 0.3s;
+    font-weight: 500;
+}
+.rodape-container ul li a:hover{
+    color: #0f0f0f;
+}
