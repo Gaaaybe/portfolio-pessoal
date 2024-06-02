@@ -355,3 +355,68 @@ a{
     font-size: 1.3rem;
     line-height: 1.7rem;
 }
+
+#produtos-populares{
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.popular-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.popular-cabecalho h3{
+    font-size: 1.7rem;
+    color: #333333;
+    font-weight: 800;
+}
+
+.popular-cabecalho a{
+    color: #5A5A5A;
+    font-size: 0.9rem;
+}
+
+.popular-box{
+    max-width: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.popular-box-img{
+    width: 100%;
+    height: 120px;
+    background-color: #fff8f8;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.popular-box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.popular-box-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.popular-box-texto a{
+    color: #363636;
+    font-size: 1rem;
+    font-weight: 600;
+}
