@@ -444,3 +444,56 @@ a{
     grid-gap: 40px;
     margin-top: 30px;
 }
+
+footer{
+    width: 100%;
+    border-top: 1px solid #e9e9e9; 
+}
+
+.rodape-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.rodape-empresa-box{
+    max-width: 330px;
+}
+
+.rodape-empresa-box .rodape-logo{
+    font-size: 1.8rem;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.rodape-empresa-box p{
+    color: #585858;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    margin: 5px 0px;
+}
+
+.rodape-social{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.rodape-social a{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    color: #333333;
+    font-size: 0.9rem;
+}
