@@ -6,18 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', function(event) {
             event.preventDefault();
 
-            // Remove 'ativo' class from all <li> elements
             document.querySelectorAll('#lista-produtos li').forEach(li => {
                 li.classList.remove('ativo');
             });
 
-            // Add 'ativo' class to the clicked <li> element
             this.parentElement.classList.add('ativo');
 
-            // Get the category from the clicked link
             const category = this.getAttribute('data-category');
 
-            // Show/hide products based on the category
             products.forEach(product => {
                 if (category === 'todos') {
                     product.style.display = 'flex';
@@ -32,6 +28,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Initially show all products
     document.querySelector('[data-category="todos"]').click()
 });
