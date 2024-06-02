@@ -254,8 +254,14 @@ a{
     letter-spacing: 1px;
 }
 
+.novo_p_cabecalho li:hover{
+    background-color: #f0cce5;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 .novo_p_cabecalho li.ativo{
-    background-color: #f06bc8;
+    background-color: #f0cce5;
     color: #ffffff;
 }
 
